@@ -1,0 +1,20 @@
+@relation semillas
+
+@attribute peso real
+@attribute tamaño real
+@attribute color {blanco, amarillo, marrón, negro}
+@attribute forma {redonda, ovalada, alargada}
+@attribute textura {lisa, rugosa}
+@attribute tipo {maíz, trigo, arroz, girasol, frijol}
+
+@data
+12.5, 5.3, amarillo, redonda, lisa, maíz
+14.0, 6.1, marrón, ovalada, rugosa, trigo
+10.8, 4.7, blanco, alargada, lisa, arroz
+13.2, 5.8, negro, redonda, rugosa, girasol
+11.6, 5.0, marrón, ovalada, lisa, frijol
+12.9, 5.5, amarillo, redonda, rugosa, maíz
+13.5, 6.0, blanco, alargada, rugosa, arroz
+10.2, 4.5, negro, ovalada, lisa, frijol
+14.1, 6.2, amarillo, redonda, lisa, maíz
+12.0, 5.1, marrón, ovalada, rugosa, trigo
